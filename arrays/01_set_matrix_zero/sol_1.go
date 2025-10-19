@@ -49,7 +49,7 @@ func setMatrixZero(matrix [][]int) {
 	for i := 0; i < len(cols); i++ {
 		for j := 0; j < len(matrix); j++ {
 			c := cols[i]
-			matrix[j][r] = 0
+			matrix[j][c] = 0
 		}
 	}
 }
